@@ -15,7 +15,7 @@ function setup() {
     // rain stream
     let x = 0;
     for(let i = 0; i < width / STEP; i++) {
-        let messageArr = i % 2 == 0 ? ['T','H','A','N','K','Y','O','U'] : ['J','U','S','T','I','N'];
+        let messageArr = i % 2 == 0 ? ['T','H','A','N','K','Y','O','U'] : ['A','L','I','N','A'];
         let stream = new Stream(messageArr);
         let topLimit = stream.totalSymbols * TEXTSIZE;
         let y = random(-1500, -topLimit);
